@@ -12,35 +12,15 @@ export default new Router({
       component: PageTransition,
       children: [{
         path: '/',
-        redirect: '/judgment'
+        redirect: '/pageOne'
       }, {
-        path: '/judgment',
-        name: 'judgment',
-        meta: {
-          title: '判断题'
-        },
-        component: resolve => require(['../view/Judgment/judgment.vue'], resolve)
+        path: '/pageOne',
+        name: 'pageOne',
+        component: resolve => require(['../view/PageOne/pageOne.vue'], resolve)
       }, {
-        path: '/singleSelect',
-        name: 'singleSelect',
-        meta: {
-          title: '单选题'
-        },
-        component: resolve => require(['../view/SingleSelect/singleSelect.vue'], resolve)
-      }, {
-        path: '/multiSelect',
-        name: 'multiSelect',
-        meta: {
-          title: '多选题'
-        },
-        component: resolve => require(['../view/MultiSelect/multiSelect.vue'], resolve)
-      }, {
-        path: '/score',
-        name: 'score',
-        meta: {
-          title: '成绩'
-        },
-        component: resolve => require(['../view/Score/score.vue'], resolve)
+        path: '/pageTwo',
+        name: 'pageTwo',
+        component: resolve => require(['../view/PageTwo/pageTwo.vue'], resolve)
       }]
     }
   ]

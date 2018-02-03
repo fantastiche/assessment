@@ -10,23 +10,23 @@ import {AlertPlugin} from 'vux'
 
 FastClick.attach(document.body)
 
-let SHOPCODE
-let USERID
-let LEVEL
-let CATALOGUE
-SHOPCODE = location.href.split('?')[1].split('&')[0].split('=')[1]
-Vue.prototype.SHOPCODE = SHOPCODE
-console.error('------------' + SHOPCODE)
-localStorage.setItem('SHOPCODE', SHOPCODE)
-USERID = location.href.split('?')[1].split('&')[1].split('=')[1]
-localStorage.setItem('USERID', USERID)
-Vue.prototype.USERID = USERID
-LEVEL = location.href.split('?')[1].split('&')[2].split('=')[1]
-localStorage.setItem('LEVEL', LEVEL)
-Vue.prototype.LEVEL = LEVEL
-CATALOGUE = location.href.split('?')[1].split('&')[3].split('=')[1]
-localStorage.setItem('CATALOGUE', CATALOGUE)
-Vue.prototype.CATALOGUE = CATALOGUE
+// let SHOPCODE
+// let USERID
+// let LEVEL
+// let CATALOGUE
+// SHOPCODE = location.href.split('?')[1].split('&')[0].split('=')[1]
+// Vue.prototype.SHOPCODE = SHOPCODE
+// console.error('------------' + SHOPCODE)
+// localStorage.setItem('SHOPCODE', SHOPCODE)
+// USERID = location.href.split('?')[1].split('&')[1].split('=')[1]
+// localStorage.setItem('USERID', USERID)
+// Vue.prototype.USERID = USERID
+// LEVEL = location.href.split('?')[1].split('&')[2].split('=')[1]
+// localStorage.setItem('LEVEL', LEVEL)
+// Vue.prototype.LEVEL = LEVEL
+// CATALOGUE = location.href.split('?')[1].split('&')[3].split('=')[1]
+// localStorage.setItem('CATALOGUE', CATALOGUE)
+// Vue.prototype.CATALOGUE = CATALOGUE
 
 Vue.config.productionTip = false
 Vue.use(AlertPlugin)

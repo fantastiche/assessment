@@ -17,19 +17,19 @@
 //      localStorage.setItem('LEVEL', LEVEL)
 //      localStorage.setItem('CATALOGUE', CATALOGUE)
 
-      let SHOPCODE
-      let USERID
-      let LEVEL
-      let CATALOGUE
-      SHOPCODE = location.href.split('?')[1].split('&')[0].split('=')[1]
-      console.error('------------' + SHOPCODE)
-      localStorage.setItem('SHOPCODE', SHOPCODE)
-      USERID = location.href.split('?')[1].split('&')[1].split('=')[1]
-      localStorage.setItem('USERID', USERID)
-      LEVEL = location.href.split('?')[1].split('&')[2].split('=')[1]
-      localStorage.setItem('LEVEL', LEVEL)
-      CATALOGUE = location.href.split('?')[1].split('&')[3].split('=')[1]
-      localStorage.setItem('CATALOGUE', CATALOGUE)
+//      let SHOPCODE
+//      let USERID
+//      let LEVEL
+//      let CATALOGUE
+//      SHOPCODE = location.href.split('?')[1].split('&')[0].split('=')[1]
+//      console.error('------------' + SHOPCODE)
+//      localStorage.setItem('SHOPCODE', SHOPCODE)
+//      USERID = location.href.split('?')[1].split('&')[1].split('=')[1]
+//      localStorage.setItem('USERID', USERID)
+//      LEVEL = location.href.split('?')[1].split('&')[2].split('=')[1]
+//      localStorage.setItem('LEVEL', LEVEL)
+//      CATALOGUE = location.href.split('?')[1].split('&')[3].split('=')[1]
+//      localStorage.setItem('CATALOGUE', CATALOGUE)
     }
   }
 </script>
